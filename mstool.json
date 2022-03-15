@@ -1,0 +1,23 @@
+{
+    "elastic" : {
+     "host" : "10.26.26.62:9200",
+     "use_ssl" : false,
+     "search_index" : "modsec-err",
+     "rule_index" : "modsec-warn",
+     "doctype" : "logs",
+     "max_size" : "1000",
+     "version" : "5"
+    },
+    "syslogd": {
+     "host" : "0.0.0.0",
+     "port" : "51400"
+    },
+    "global_filters" : {
+     "whitelisted" : "false"
+    },
+    
+    "publications_rules":{
+        "default": "/usr/local/openresty/nginx/conf/sites/{server}/rules/{server}.rules.conf"
+    }
+}
+    
