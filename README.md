@@ -1,6 +1,6 @@
 # MSTool
 
-ModSecTool partially implements functionality of nxtool-ng for ModSecurity
+ModSecTool partially implements functionality of [nxtool-ng](https://github.com/nbs-system/nxtool-ng) for ModSecurity
 
 ## Installation
 
