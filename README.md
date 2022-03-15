@@ -1,4 +1,4 @@
-# Foobar
+# MSTool
 
 ModSecTool partially implements functionality of nxtool-ng for ModSecurity
 
